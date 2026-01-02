@@ -7,3 +7,6 @@ height =6
 
 
 console.log(name+age+height);
+/**
+ * Redeclare kora jai na but value update kore jai (let)
+ */
