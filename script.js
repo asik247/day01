@@ -25,7 +25,14 @@ console.log(students);
 // Array in const
 const firends = ['asik','rimon','karim']
 firends[0]="kahan"
+firends.push("jamal")
+firends.unshift("md")
 console.log(firends);
+
+// Best Practics 
+const numbers = [10,20,30,50]
+const newNumbers = [...numbers,101]
+console.log(newNumbers);
 
 /**
  * Redeclare kora jai na but value update kore jai (let)
